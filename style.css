@@ -1,0 +1,37 @@
+﻿.container {
+    width: 80%;
+    margin: auto;
+}
+
+textarea {
+    width: 100%;
+}
+
+.toolbar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.toolbar-btn {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+    .toolbar-btn.selected {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+.btn-preview {
+    display: block;
+    margin-top: 10px;
+}
+
+#preview-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+}
